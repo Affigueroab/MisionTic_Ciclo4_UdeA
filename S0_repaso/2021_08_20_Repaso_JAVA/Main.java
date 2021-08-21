@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args){
         Entrenador entrenador1 = new Entrenador(1, "Juan", "Suarez", 46, "1234");
         Futbolista futbolista1 = new Futbolista(2, "Cristiano", "Ronaldo", 36, "7");
-        Masajista masajista1 = new Masajista(3, "Carlos", "Acosta", 28, "UNAL", 5)
+        Masajista masajista1 = new Masajista(3, "Carlos", "Acosta", 28, "UNAL", 5);
 
         Seleccion[] miembrosClub = new Seleccion[3];
         miembrosClub[0] = entrenador1;

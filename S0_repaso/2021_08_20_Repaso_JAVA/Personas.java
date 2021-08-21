@@ -17,7 +17,7 @@ class Persona{
 
     // Setter, es decir, le asigna un valor al parametro especifico.
     // Note que como el metodo no devuelve nada, entonces el tipo de dato de la función es void
-    public void setNombre(nombre){
+    public void setNombre(String nombre){
         this.nombre = nombre;
     }
 
@@ -47,12 +47,12 @@ class Persona{
     }
 
 
-    public void setApellido(String apellido){
-        this.apellido = apellido;
+    public void setProfesion(String profesion){
+        this.profesion = profesion;
     }
 
-    public String getApellido(){
-        return apellido;
+    public String getProfesion(){
+        return profesion;
     }
 
     // Este es un metodo de la clase, algo así como una función pero de clases.
@@ -68,7 +68,7 @@ class Personas {
         Persona persona1 = new Persona("Julio", "Martinez", 40, "Agronomo");
         Persona persona2 = new Persona("Claudia", "Montes", 29, "Bailarina");
         Persona persona3 = new Persona("Kevin", "Benjumea", 14, "Estudiante");
-        Persona persona4 = new Persona("Sandra", "Morales", 34, "Doctora");
+        // Persona persona4 = new Persona("Sandra", "Morales", 34, "Doctora");
 
         // Creo un arreglo con 3 elementos, cada uno de la clase Persona
         // Note que como tiene 3 posiciones, el index más grande que puede tener es 2. 

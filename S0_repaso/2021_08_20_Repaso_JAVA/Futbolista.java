@@ -10,6 +10,7 @@ public class Futbolista extends Seleccion{
     }
 
     public void lesionarse(){
+        System.out.println(this.dorsal);
 
     }
 
