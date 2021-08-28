@@ -13,6 +13,7 @@ Review:
      - Arrays.
      - Instances of a class.
      - Inheritance and polymorphism.
+     
 Recommended order to estudy the files:
      - HelloWorld.java
      - AreaCircle.java
@@ -36,10 +37,11 @@ Repasamos:
     - Arreglos.
     - Crear instancias de una clase.
     - Herencia y polimorfismo.
+    
 Ordén recomendado para ver los archivos:
-     - HelloWorld.java
-     - AreaCircle.java
-     - Personas.java
-     - Seleccion.java
-     - Otros
+    - HelloWorld.java
+    - AreaCircle.java
+    - Personas.java
+    - Seleccion.java
+    - Otros
   
